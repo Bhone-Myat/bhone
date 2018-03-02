@@ -10,8 +10,28 @@
  nav a{
  	font-size: 21px;
  }
+ .about{
+	  
+    width: 400px;
+    height: 250px;
 
 }
+.about img{
+
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.me{
+	letter-spacing: 5px;
+	font-family: 'Megrim', cursive;
+}
+
+
+}
+
+
 header{
 
  	background-image: url('images/bg.jpg');
@@ -26,3 +46,23 @@ header{
 	padding: 10px 30px;
 	font-family: 'Julius Sans One', sans-serif;
 }
+.social{
+	margin-top: 10px;
+}
+.social a{
+	font-size: 27px;
+	text-decoration: none;
+	color: #fff;
+	padding-right: 10px;
+
+}
+
+.social a:hover{
+	cursor: pointer;
+	color: grey;
+}
+
+
+
+
+

@@ -1,5 +1,12 @@
 @media screen and (min-width:450px) and (max-width:1204px) {
  
+ header{
+
+ 	background: url('images/bg.jpg');
+ 	height: 500px;
+ 	background-size: cover;
+ 	color: #fff;
+ }
  .logo img{
  	width: 80px;
  	height: 80px;
@@ -10,4 +17,11 @@
  	font-size: 21px;
  }
 
+}
+
+.intro{
+	border:1px solid #fff;
+	border-radius: 3px;
+	padding: 10px 30px;
+	font-family: 'Julius Sans One', sans-serif;
 }

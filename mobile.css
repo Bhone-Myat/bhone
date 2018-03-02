@@ -1,4 +1,4 @@
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 680px) {
  
   
  
@@ -13,23 +13,18 @@
 
  }
 
-  .about{
-	  
-    width: 350px;
-    height: 200px;
-
-}
-.about img{
-
-	width: 350px;
-	margin-left: auto;
-	margin-right: auto;
+.about-info{
+	float: right;
+	width: 280px;
+	margin-top: 80px;
+	margin-right: 10px;
 }
 
-.me{
-	letter-spacing: 3px;
-	font-size: 15px;
-	font-family: 'Megrim', cursive;
+.about-info h3{
+	font-size: 25px;
+}
+.about-info p{
+	font-size: 13px;
 }
 
 }

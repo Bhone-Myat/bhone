@@ -10,23 +10,13 @@
  nav a{
  	font-size: 21px;
  }
- .about{
-	  
-    width: 400px;
-    height: 240px;
-
-}
-.about img{
-
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
+ 
+.about-info h3{
+	font-size: 40px;
 }
 
-.me{
-	letter-spacing: 5px;
-	font-family: 'Megrim', cursive;
-}
+
+
 
 
 }
@@ -61,6 +51,24 @@ header{
 	cursor: pointer;
 	color: grey;
 }
+
+.about {
+    background: linear-gradient(to right, rgba(73,155,234,0.23) 0%, rgba(73,155,234,0.24) 0%, rgba(73,155,234,0.24) 71%, rgba(32,124,229,0.24) 100%),url(images/photo7.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 450px;
+	font-family: 'Hind Guntur', sans-serif;
+	
+}
+
+.about-info{
+	float: right;
+	width: 480px;
+	margin-top: 100px;
+	margin-right: 100px;
+
+}
+
 
 
 

@@ -1,12 +1,6 @@
 @media screen and (min-width: 321px) and (max-width: 480px) {
  
-  header{
-
- 	background: url('images/bg.jpg');
- 	height: 500px;
- 	background-size: cover;
- 	color: #fff;
- }
+  
  
  nav{
  		font-size: 20px;

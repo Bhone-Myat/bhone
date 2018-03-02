@@ -1,0 +1,13 @@
+@media screen and (min-width:450px) and (max-width:1204px) {
+ 
+ .logo img{
+ 	width: 80px;
+ 	height: 80px;
+ }
+
+
+ nav a{
+ 	font-size: 21px;
+ }
+
+}

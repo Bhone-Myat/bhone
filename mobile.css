@@ -15,13 +15,13 @@
 
   .about{
 	  
-    width: 200px;
-    height: 180px;
+    width: 320px;
+    height: 200px;
 
 }
 .about img{
 
-	width: 200px;
+	width: 320px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -31,4 +31,5 @@
 	font-size: 15px;
 	font-family: 'Megrim', cursive;
 }
+
 }

@@ -1,6 +1,8 @@
 @media screen and (min-width: 321px) and (max-width: 580px) {
  
-  
+ header{
+ 	height: 600px;
+ } 
  
  nav{
  		font-size: 23px;

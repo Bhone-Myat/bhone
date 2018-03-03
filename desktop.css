@@ -53,7 +53,7 @@ header{
 }
 
 .about {
-    background-image: linear-gradient(to right, rgba(73,155,234,0.23) 0%, rgba(73,155,234,0.24) 0%, rgba(73,155,234,0.24) 71%, rgba(32,124,229,0.24) 100%),url('images/photo7.jpg');
+    background-image: url('images/photo7.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 450px;

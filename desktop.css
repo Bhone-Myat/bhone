@@ -14,9 +14,21 @@
 .about-info h3{
 	font-size: 40px;
 }
+.yu{
 
+	width: 100%;
+	height: 350px;
+	padding-top: 60px;
+}
 
-
+.yu h6{
+	width: 400px;
+	border: 1px solid #fff;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px 30px;
+	font-size: 20px;
+}
 
 
 }
@@ -69,6 +81,15 @@ header{
 
 }
 
+.yu{
+	background-image:url('images/photo9.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.8;
+	color: #fff;
+
+}
 
 
 

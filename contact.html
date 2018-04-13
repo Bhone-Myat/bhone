@@ -32,7 +32,7 @@
     }
     .active{
 
-      border-bottom: 3px solid skyblue;
+      border-bottom: 2px solid skyblue;
       
     }
     .navbar-nav .nav-item{
@@ -43,17 +43,25 @@
     }
     .navbar-nav .nav-item a:hover{
       
-      transition: 0.5s;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        border-radius: 5px;
+     transition: 0.5s;
+    -webkit-box-shadow: 10px 5px 51px -3px rgba(133,102,133,1);
+	-moz-box-shadow: 10px 5px 51px -3px rgba(133,102,133,1);
+	box-shadow: 10px 5px 51px -3px rgba(133,102,133,1);
+	border-radius: 5px;
     }
-
+    .navbar-custom {
+    background-color: #0A0E38;
+    color: #fff;
+}
+	.navbar-custom a{
+		color: #fff;
+	}
    
 </style>
 
 <body>
 	
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
   <a class="navbar-brand logo" href="index.html"><img src="images/b.png"></a>
   <a class="navbar-brand bhone">Bhone Myat</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,8 +69,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-5">
-      <li class="nav-item active text-center">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item text-center">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item text-center">
         <a class="nav-link" href="#">Gallery</a>
@@ -70,8 +78,8 @@
       <li class="nav-item text-center">
         <a class="nav-link" href="#">Blog</a>
       </li>
-      <li class="nav-item text-center">
-        <a class="nav-link" href="contact.html">Contact Me</a>
+      <li class="nav-item text-center active">
+        <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>

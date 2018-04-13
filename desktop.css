@@ -2,8 +2,8 @@
  
  
  .logo img{
- 	width: 80px;
- 	height: 80px;
+ 	width: 50px;
+ 	height: 50px;
  }
 
 
@@ -115,7 +115,7 @@ header{
 	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: 5px;
-	animation: text 8s 1;
+	animation: text 15s 1;
 	position: relative;
 }
 .welcome .text2{
@@ -139,6 +139,26 @@ header{
 	}
 
 }
+
+/* Hello Text Animation */
+ .hello {
+ 	animation: type 2.5s steps(11);
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	border-right: 1px solid #fff;
+ 	width: 10ch;
+ 	font-family: 'Questrial', sans-serif;
+
+ }
+@keyframes type{
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 11ch;
+	}
+}
+
 
 body a:hover{
 	
@@ -174,6 +194,8 @@ footer{
 	color: #fff;
 	margin-top: 20px;
 }
+
+
 
 
 

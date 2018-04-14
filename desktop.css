@@ -8,7 +8,7 @@
 
 
  nav a{
- 	font-size: 21px;
+ 	font-size: 19px;
  }
 
 .about-info h3{
@@ -29,7 +29,10 @@
 	padding: 15px 30px;
 	font-size: 20px;
 }
-
+.location iframe{
+	width: 800px;
+	height: 400px;
+}
 
 }
 
@@ -185,6 +188,21 @@ body a:hover{
 .sendmail:hover{
 	color:  #2E418E;
 	background-color: #fff;
+}
+
+.contact{
+	background-image: url("images/contact.jpg");
+	height: 500px;	
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.contact-info h6{
+	color: #fff;
+	font-size: 23px;
+	margin-top: 40px;
 }
 
 

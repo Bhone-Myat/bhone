@@ -28,10 +28,12 @@
 .about-info p{
 	font-size: 13px;
 }
-
+.contact{
+	height: 600px;
+}
 .location iframe{
 
-	width: 300px;
+	width: 350px;
 	height: 320px;
 }
 

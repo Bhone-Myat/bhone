@@ -1,4 +1,4 @@
-@media screen and (min-width:450px) and (max-width:1204px) {
+@media screen and (min-width:600px) and (max-width:1204px) {
  
  
  .logo img{
@@ -29,8 +29,11 @@
 	padding: 15px 30px;
 	font-size: 20px;
 }
+.contact{
+	height: 500px;
+}
 .location iframe{
-	width: 800px;
+	width: 700px;
 	height: 400px;
 }
 
@@ -191,8 +194,7 @@ body a:hover{
 }
 
 .contact{
-	background-image: url("images/contact.jpg");
-	height: 500px;	
+	background-image: url("images/contact.jpg");	
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;

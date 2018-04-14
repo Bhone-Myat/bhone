@@ -194,8 +194,9 @@ body a:hover{
 }
 
 .contact{
-	background-image: url("images/contact.jpg");	
+	background: linear-gradient(rgba(26,26,26,0.7),rgba(26,26,26,0.7)), url(images/contact.jpg);	
 	width: 100%;
+	color: #fff;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

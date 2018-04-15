@@ -30,7 +30,7 @@
 	font-size: 20px;
 }
 .contact{
-	height: 500px;
+	height: 600px;
 }
 .location iframe{
 	width: 700px;
@@ -43,7 +43,7 @@
 header{
 
  	background-image: url('images/bg.jpg');
- 	height: 500px;
+ 	height: 600px;
  	background-size: cover;
  	color: #fff;
  }
@@ -200,13 +200,51 @@ body a:hover{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .contact-info h6{
 	color: #fff;
 	font-size: 23px;
-	margin-top: 40px;
+	margin-top: 80px;
 }
+.system{
+	text-align: center;
+	margin:0 auto;
+	margin-top: 50px;
+	font-family: 'Didact Gothic', sans-serif;
+
+
+}
+.system .first{
+	width: 120px;
+	padding-top: 20px;
+
+}
+.system .second{
+	padding-top: 10px;
+}
+
+
+/* Blog */
+.blog{
+	background-image: url(images/bg3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.neon{
+	font-family: 'Didact Gothic', sans-serif;
+	color: #fff;
+	margin-top: 150px;
+	font-size: 45px;
+	text-shadow: 0 0 20px #ff005b;
+	font-weight: 500;
+
+
+
+}
+
 
 
 footer{

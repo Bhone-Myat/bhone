@@ -207,14 +207,36 @@ body a:hover{
 	color: #fff;
 	font-size: 23px;
 	margin-top: 80px;
+	animation: fadeandscale 2s cubic-bezier(0,1.07,.72,1.42);
+
 }
+@keyframes fadeandscale{
+	from{
+		opacity: 0;
+		transform: scale3d(.75,.75,1);
+	}
+	to{
+		opacity: 1;
+		transform: scale3d(1,1,1);
+	}
+}
+
 .system{
 	text-align: center;
 	margin:0 auto;
 	margin-top: 50px;
 	font-family: 'Didact Gothic', sans-serif;
+	animation: fadein 3s ease-in;
 
+}
+@keyframes fadein{
+	from{
+		opacity: 0;
 
+	}
+	to{
+		opacity: 1;
+	}
 }
 .system .first{
 	width: 120px;
@@ -240,8 +262,6 @@ body a:hover{
 	font-size: 45px;
 	text-shadow: 0 0 20px #ff005b;
 	font-weight: 500;
-
-
 
 }
 

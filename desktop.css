@@ -257,7 +257,7 @@ body a:hover{
 
 
 }
-.send-info-btn a{
+.send-info-btn{
 	color: grey;
 
 }
@@ -265,9 +265,7 @@ body a:hover{
 	color: #000;
 	background: #fff;
 }
-.send-info-btn a:hover{
-	color: grey;
-}
+
 
 /* Blog */
 .blog{

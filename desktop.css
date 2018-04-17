@@ -249,7 +249,25 @@ body a:hover{
 .system .second{
 	padding-top: 10px;
 }
+.send-info-btn{
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 8px 10px;
+	border-radius: 5px;
 
+
+}
+.send-info-btn a{
+	color: grey;
+
+}
+.send-info-btn:hover{
+	color: #000;
+	background: #fff;
+}
+.send-info-btn a:hover{
+	color: grey;
+}
 
 /* Blog */
 .blog{

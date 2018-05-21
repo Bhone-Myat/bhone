@@ -265,6 +265,14 @@ body a:hover{
 	color: #000;
 	background: #fff;
 }
+/* gallery folders */
+.gallery_folder img{
+
+	width: 200px;
+	height: 200px;
+
+}
+
 
 
 /* Blog */

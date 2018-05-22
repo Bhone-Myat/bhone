@@ -272,7 +272,8 @@ body a:hover{
 	position: absolute;
     background: transparent;
     font-size: 25px;
-   font-family: 'Zilla Slab Highlight', cursive;
+    text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
     color: #fff;
     top: 30%;
     z-index: 1;
@@ -287,6 +288,7 @@ body a:hover{
 
 	transform: scale(1.1);
 	overflow: hidden;
+	filter: blur(1px);
 	transition: all 0.7s ease-in;
 
 }

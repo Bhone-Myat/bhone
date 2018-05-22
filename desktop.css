@@ -181,9 +181,11 @@ body a:hover{
 	color: #fff;
 	background-color: #2E418E;
 	width: 150px;
+	border-radius: 5px;
+	padding: 5px 15px;
 
 }
-.sendmail a{
+.sendmail {
 	color: #fff;
 	font-size: 20px;
 }
@@ -266,12 +268,55 @@ body a:hover{
 	background: #fff;
 }
 /* gallery folders */
-.gallery_folder img{
+.gallery-folder h1{
+	position: absolute;
+    background: transparent;
+    font-size: 25px;
+   font-family: 'Zilla Slab Highlight', cursive;
+    color: #fff;
+    top: 30%;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;    
+}
+.gallery-folder:hover h1{
+	opacity: 1;
+}
 
-	width: 200px;
-	height: 200px;
+.card-img-top:hover{
+
+	transform: scale(1.1);
+	overflow: hidden;
+	transition: all 0.7s ease-in;
 
 }
+.card-title{
+	font-family: 'Rock Salt', cursive;
+}
+.view-button{
+
+	border:1px solid #faf5fa;
+	border-radius: 15px;
+	padding: 4px 15px;
+	background-color: #faf5fa;
+	box-shadow: 5px 6px 9px -4px rgba(0,0,0,0.62);
+	font-family: 'Montserrat', sans-serif;
+
+}
+.view-btn a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+}
+.view-button:hover{
+
+	background-color: #000;
+	color: #fff;
+	border:1px solid #000;
+	transition: all 0.8s linear;
+}
+
+
 
 
 

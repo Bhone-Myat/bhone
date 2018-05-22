@@ -297,24 +297,24 @@ body a:hover{
 }
 .view-button{
 
-	border:1px solid #faf5fa;
+	border:1px solid #000;
 	border-radius: 15px;
 	padding: 4px 15px;
-	background-color: #faf5fa;
+	background-color: #000;
 	box-shadow: 5px 6px 9px -4px rgba(0,0,0,0.62);
 	font-family: 'Montserrat', sans-serif;
 
 }
 .view-btn a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-size: 15px;
 }
 .view-button:hover{
 
-	background-color: #000;
-	color: #fff;
-	border:1px solid #000;
+	background-color: #faf5fa;
+	color: #000;
+	border:1px solid #faf5fa;
 	
 }
 

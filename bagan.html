@@ -9,16 +9,22 @@
   <link rel="stylesheet" type="text/css" href="desktop.css">
   <link rel="stylesheet" type="text/css" href="mobile.css">
 
+<!-- Css hover effect -->
   <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <script type="text/javascript" src="css/lightbox-plus-jquery.min.js"></script>
+
+
    <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   <!-- font awsome -->
    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 <!-- google font -->
-<link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Julius+Sans+One|Megrim|Questrial|Rock+Salt|Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Julius+Sans+One|Megrim|Questrial|Rock+Salt|Didact+Gothic|Montserrat|Akronim" rel="stylesheet">
 </head>
 
 <style>
@@ -56,15 +62,18 @@
         border-radius: 5px;
     }
     
-    .bagan_img img{
+    .bagan_img img:hover{
     	
-    	border-radius: 5px;
-    	border: 1px solid #fff;
+    	transform: scale(1.05);
+    	
+    	
     }
+
+    
  </style>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent mb-4">
   <a class="navbar-brand logo mr-3" href="index.html"><img src="images/b.png"></a>
   <a class="navbar-brand bhone">Bhone Myat</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,83 +97,67 @@
   </div>
 </nav>
 
-<div class="container">
-     
- 
- 
-<div class="container gallery-container">
-  
-    <h1 class="text-center">Bootstrap 3 Gallery</h1>
-  
-    <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+<!------   Back Button -->
+<span class="back-btn"><a href="gallery.html" class="back-button">
+	<i class="fas fa-angle-double-left pr-1"></i>Back</a></span>
+
+<h3 class="text-center mt-2" style="font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight: 700;letter-spacing: 1px;font-size: 20px;">2017 Bagan Field Trip</h3>
+
+<!----   Images Section ----->
+<div class="container gallery-container mt-4 bagan_img">   
       
     <div class="tz-gallery">
   
         <div class="row mb-3">
-            <div class="col-3">
+            <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="Bagan/0914.JPG">
-                    <img src="Bagan/IMG_0914.JPG" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0914.JPG">
+                    <img src="Bagan/IMG_0914.JPG" alt="Sunrise" class="card-img-top">
                     </a>
                 </div>
             </div>
              
-            <div class="col-3">
+            <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="Bagan/0914.JPG">
-                    <img src="Bagan/IMG_0914.JPG" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0929.JPG">
+                    <img src="Bagan/IMG_0929.JPG" alt="Park" class="card-img-top">
                     </a>
                 </div>
             </div>
              
-            <div class="col-3">
+            <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="Bagan/0914.JPG">
-                    <img src="Bagan/IMG_0914.JPG" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0930.JPG">
+                    <img src="Bagan/IMG_0930.JPG" alt="Park" class="card-img-top">
                     </a>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="card">
-                    <a class="lightbox" href="Bagan/0914.JPG">
-                    <img src="Bagan/IMG_0914.JPG" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
+            
         </div>
           <div class="row"> 
-            <div class="col-3">
+             <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="images/coast.jpg">
-                    <img src="images/coast.jpg" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0973.JPG">
+                    <img src="Bagan/IMG_0973.JPG" alt="Park" class="card-img-top">
                     </a>
                 </div>
             </div>
              
-            <div class="col-3">
+            <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="images/rails.jpg">
-                    <img src="images/rails.jpg" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0978.JPG">
+                    <img src="Bagan/IMG_0978.JPG" alt="Park" class="card-img-top">
                     </a>
                 </div>
             </div>
              
-            <div class="col-3">
+            <div class="col-4">
                 <div class="card">
-                    <a class="lightbox" href="images/rocks.jpg">
-                    <img src="images/rocks.jpg" alt="Park" class="card-img-top">
+                    <a class="lightbox" href="Bagan/IMG_0980.JPG">
+                    <img src="Bagan/IMG_0980.JPG" alt="Park" class="card-img-top">
                     </a>
                 </div>
-            </div>
-         
-         <div class="col-3">
-                <div class="card">
-                    <a class="lightbox" href="images/bridge.jpg">
-                    <img src="images/bridge.jpg" alt="Park" class="card-img-top">
-                    </a>
-                </div>
-            </div>
         </div>
   
     </div>
@@ -174,4 +167,10 @@
 </div>
 
 </body>
+<!-- Image Click Effect View -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
 </html>

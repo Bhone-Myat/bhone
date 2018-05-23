@@ -268,30 +268,12 @@ body a:hover{
 	background: #fff;
 }
 /* gallery folders */
-.gallery-folder h1{
-	position: absolute;
-    background: transparent;
-    font-size: 25px;
-    text-transform: uppercase;
-   font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    top: 30%;
-    z-index: 1;
-    width: 100%;
-    opacity: 0;    
-}
-.gallery-folder:hover h1{
-	opacity: 1;
+.gallery{
+	margin-bottom: 200px;
 }
 
-.card-img-top:hover{
 
-	transform: scale(1.1);
-	overflow: hidden;
-	filter: blur(1px);
-	transition: all 0.7s ease-in;
 
-}
 .card-title{
 	font-family: 'Rock Salt', cursive;
 }
@@ -338,6 +320,7 @@ body a:hover{
 	font-weight: 500;
 
 }
+
 
 
 

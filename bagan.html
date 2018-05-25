@@ -20,6 +20,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<!--- J Query -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('#view').on('click',function(){
+
+  			$('#show-1').show();
+  		});
+
+  	});
+  </script>
+
   <!-- font awsome -->
    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
@@ -85,7 +101,9 @@
 		width: 21ch;
 	}
 }
-
+#show-1{
+	visibility: none;
+}
 
     
  </style>
@@ -181,9 +199,10 @@
                 </div>
         </div>
   
-    </div>
+    </div>     
+    	
 
-    <div class="row mb-3"> 
+    <div class="row mb-3 show-1" id="show-1"> 
              <div class="col-4">
                 <div class="card">
                     <a class="lightbox" href="Bagan/IMG_0989.JPG">
@@ -236,10 +255,8 @@
         </div>
   
     </div>
-  
-</div>
 
- <div class="row mb-3"> 
+    <div class="row mb-3"> 
              <div class="col-4">
                 <div class="card">
                     <a class="lightbox" href="Bagan/IMG_1780.JPG">
@@ -292,6 +309,12 @@
         </div>
   
     </div>
+  
+</div> <!-- Tz Gallery -->
+
+ 
+    <!--Show More images button -->
+    <button class="text-center" id="view">View more</button>
  
 </div>
 
